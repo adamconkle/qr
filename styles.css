@@ -1,4 +1,6 @@
 body {
+  margin: 0;
+  padding: 0;
   background-color: F7F7F7;
   font-family: Lexend, Roboto, Arial, sans-serif;
   font-weight: 300;
@@ -6,13 +8,12 @@ body {
 
 container {
   display: grid;
-  grid-template-columns: auto auto;
-  background-color: dodgerblue;
+  grid-template-columns: 30% auto;
   padding: 10px;
 }
 
 #sidebar {
-  width: 30%;
+  background-color: #121212;
 }
 
 #create {
