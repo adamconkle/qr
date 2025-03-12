@@ -8,12 +8,8 @@ body {
   background-color: F7F7F7;
   font-family: Lexend, Roboto, Arial, sans-serif;
   font-weight: 300;
-}
-
-container {
   display: grid;
   grid-template-columns: 30% auto;
-  padding: 10px;
 }
 
 #sidebar {
