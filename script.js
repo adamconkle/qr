@@ -1,4 +1,4 @@
-let qrcode = new QRCode("qrcode");
+let qrcode = new QRCode(document.getElementById("qrcode"));
 
 function makeCode () {		
 	let elText = document.getElementById("text");
