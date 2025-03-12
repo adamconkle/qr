@@ -2,12 +2,16 @@ body {
   background-color: F9F9F9;
   font-family: Lexend, Roboto, Arial, sans-serif;
   font-weight: 300;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: dodgerblue;
+  padding: 10px;
+}
+
+
 
 #qrcode {
   width:160px;
