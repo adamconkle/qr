@@ -4,7 +4,7 @@ body {
   font-weight: 300;
 }
 
-.container {
+container {
   display: grid;
   grid-template-columns: auto auto;
   background-color: dodgerblue;
