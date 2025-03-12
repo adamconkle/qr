@@ -14,10 +14,11 @@ container {
 
 #sidebar {
   background-color: #121212;
+  color: white;
 }
 
 #create {
-  
+  padding: 20px;
 }
 
 #qrcode {
