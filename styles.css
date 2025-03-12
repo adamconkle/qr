@@ -16,9 +16,7 @@ body {
   background-color: #121212;
   color: white;
   height: 100vh;
-  padding: 10px;
-  display:flex;
-  align-content: space-between; 
+  padding: 10px; 
 }
 
 #create {
