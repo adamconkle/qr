@@ -17,6 +17,8 @@ body {
   color: white;
   height: 100vh;
   padding: 10px;
+  display:flex;
+  align-content: space-between; 
 }
 
 #create {
@@ -34,5 +36,12 @@ input {
   padding: 10px;
   border-radius: 15px;
   border: 1px solid black;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
 }
 
